@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Myself from './Components/MySelf/Myself'
+import About from './Components/About/About'
+import Services from './Components/Services/Services'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       </style>
       <Navbar />
       <Myself/>
+      <About/>
+      <Services/>
     </div>
   )
 }
