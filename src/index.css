@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    background: #000;
+    color: white;
+}

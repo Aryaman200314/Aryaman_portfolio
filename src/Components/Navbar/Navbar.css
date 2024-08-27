@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:2px 59px;
+}
+.nav-logo-img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 90px;
+    font-size: 18px;
+}
+.nav-connect{
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.2);
+}

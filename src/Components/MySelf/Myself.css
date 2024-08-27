@@ -1,0 +1,61 @@
+/* :root{
+    --color :linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+} */
+.my-self-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+.my-self{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.my-self h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.my-self span{
+    background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.my-self p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 0px;
+}
+.my-self-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.connect-btn{
+    padding: 20px;
+    border-radius:30px;
+    background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+}
+.connect-btn:hover{
+    border: 2px white solid;
+    padding: 18px;
+}
+.my-resume{
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.my-resume:hover{
+    border: 2px solid rgba(34,170,70,1);
+}
