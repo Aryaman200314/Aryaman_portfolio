@@ -45,3 +45,4 @@ const Services_Data = [
     s_desc: "Tracking changes and collaborating effectively using Git."
     }
 ];
+export default Services_Data;

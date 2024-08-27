@@ -12,7 +12,7 @@ function Services() {
         </div>
         <div className='services-container'>
             {Services_Data.map((service, index) => {
-                return 
+                return (
                   <div key={index} className='services-format'>
                     <h3>{service.s_no}</h3>
                     <h2>{service.s_name}</h2>
@@ -22,6 +22,7 @@ function Services() {
                         <img src={arrow_icon} alt='Arrow Icon'/>
                     </div>
                   </div>
+                )
             })}
         </div>
     </div>
