@@ -1,8 +1,7 @@
 import React from 'react';
 import './Services.css';
 import Services_Data from '../../assets/Services_data.js';
-import arrow_icon from '../../assets/arrow-icon.png';
-
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 function Services() {
   return (
     <div className='services'>
@@ -19,7 +18,7 @@ function Services() {
                     <p>{service.s_desc}</p>
                     <div className='services-readmore'>
                         <p>Read More</p>
-                        <img src={arrow_icon} alt='Arrow Icon'/>
+                        <ChevronRightIcon fontSize='large' />
                     </div>
                   </div>
                 )
