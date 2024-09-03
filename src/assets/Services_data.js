@@ -29,18 +29,14 @@ const Services_Data = [
         s_name: "Containerization",
         s_desc: "Using Docker to containerize and deploy apps efficiently."
     },
+
     {
         s_no: "07",
-        s_name: "UI/UX Design",
-        s_desc: "Crafting user-friendly and visually appealing interfaces."
-    },
-    {
-        s_no: "08",
         s_name: "Database Management",
         s_desc: "Designing and managing databases using MongoDB."
     },
     {
-    s_no: "09",
+    s_no: "08",
     s_name: "Git Version Control",
     s_desc: "Tracking changes and collaborating effectively using Git."
     }
