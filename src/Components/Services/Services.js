@@ -7,7 +7,7 @@ function Services() {
     <div className='services'>
         <div className='services-title'>
             <h1>My Services</h1>
-            <hr/>
+            <hr className='services-title-hr'/>
         </div>
         <div className='services-container'>
             {Services_Data.map((service, index) => {

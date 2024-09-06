@@ -7,7 +7,7 @@ function About() {
         <div className='about'>
             <div className='about-title'>
                 <h1>About me</h1>
-                <hr style={{ width: "100%" }} />
+                <hr className='about-title-hr' style={{ width: "100%" }} />
                 <img src='' alt='' />
             </div>
             <div className='about-section'>

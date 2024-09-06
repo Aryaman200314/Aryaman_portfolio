@@ -1,6 +1,8 @@
 .navbar{
     display: flex;
+    /* position: fixed; */
     align-items: center;
+    /* overflow: hidden; */
     justify-content: space-between;
     margin:2px 59px;
 }
