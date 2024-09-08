@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Myself from './Components/MySelf/Myself'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
+import Mywork from './Components/MyWork/Mywork'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Myself/>
       <About/>
       <Services/>
+      <Mywork/>
+      <Contact/>
     </div>
   )
 }
