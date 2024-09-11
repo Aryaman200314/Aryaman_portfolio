@@ -66,8 +66,8 @@
     height: 50px;
     padding-left: 20px;
     border-radius: 4px;
-    background: white;
-    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.749);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -76,8 +76,25 @@
     border-radius: 4px;
     border: none;
     padding: 25px;
-    background: white;
-    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.749);
+    color: white;
     font-family:Arial, Helvetica, sans-serif ;
     font-size:15px ;
+}
+.submit-btn{
+    border : none;
+    color: white;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(2, 207, 33, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 50px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 40%;
+}
+.submit-btn:hover{
+    transform: scale(1.1) ;
+    transition: 0.2s;
 }

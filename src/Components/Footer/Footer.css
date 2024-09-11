@@ -1,0 +1,64 @@
+.footer-logo-img{
+    height: 110px;
+    width: 150px;
+}
+.footer{
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left p{
+    font-size: 20px;
+    max-width: 400px;
+}
+.footer-top-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer-email-input{
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 50px;
+    gap: 30px;
+    background: #ffffff48;
+    padding-right: 50px;
+}
+.footer-email-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.footer-subscribe{
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.footer-email-input:hover{
+    border: 2px solid white;
+}
+.footer-subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}

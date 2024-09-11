@@ -12,7 +12,7 @@ function Contact() {
             </div>
             <div className='contact-section'>
                 <div className='contact-left'><h1>Let's talk</h1>
-                <p>Can contact me anytime i will there to help</p>
+                <p>Can contact me anytime i will be there to help</p>
                 <div className='contact-details'>
                     <div className='contact-detail'><MailOutlineIcon/><p>200314arya@gmail.com</p></div>
                     <div className='contact-detail'><LocationOnIcon/><p>Punjab, India</p></div>
@@ -26,7 +26,7 @@ function Contact() {
                     <input type='email' placeholder='Enter your email' name='email'></input>
                     <label>Write your message</label>
                     <textarea name='message' placeholder='Enter your message' rows='8'></textarea>
-                    <button type='submit'>Submit Now</button>
+                    <button className='submit-btn' type='submit'>Submit Now</button>
                 </form>
                 </div>
        
