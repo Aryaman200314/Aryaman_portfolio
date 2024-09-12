@@ -4,7 +4,7 @@ import Services_Data from '../../assets/Services_data.js';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 function Services() {
   return (
-    <div className='services'>
+    <div id='services' className='services'>
         <div className='services-title'>
             <h1>My Services</h1>
             <hr className='services-title-hr'/>

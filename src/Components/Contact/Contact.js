@@ -4,8 +4,31 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 function Contact() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "37219963-f4ef-4b62-9261-5e55f744fe13");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      alert(res.message)
+    }
+  };
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
         <div className='contact-title'>
             <h1>Get in touch</h1>
             <hr/>
@@ -19,7 +42,7 @@ function Contact() {
                     <div className='contact-detail'><CallIcon/><p>623975**57</p></div>
                 </div>
                 </div>
-                <form className='contact-right'>
+                <form onSubmit={onSubmit} className='contact-right'>
                     <label>Your Name</label>
                     <input type='text' placeholder='Enter your name' name='name'></input>
                     <label>Your Email</label>

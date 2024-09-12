@@ -4,7 +4,7 @@ import myself from '../../assets/myself.jpg'
 import user_alt from '../../assets/user_alt.png'
 function About() {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className='about-title'>
                 <h1>About me</h1>
                 <hr className='about-title-hr' style={{ width: "100%" }} />

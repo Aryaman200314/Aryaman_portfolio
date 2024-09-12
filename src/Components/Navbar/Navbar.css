@@ -28,3 +28,20 @@
 .nav-connect:hover{
     transform: scale(1.2);
 }
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+.nav-menu hr{
+    
+    border: none;
+    height: 2px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(14, 251, 50, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+}
+.anchor-link {
+    text-decoration:none ;
+    color: white;
+}

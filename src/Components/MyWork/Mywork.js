@@ -6,7 +6,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 const Mywork = () => {
   return (
-    <div className='my-work'>
+    <div id='projects' className='my-work'>
       <div className='my-work-heading'>
         <h1>My latest work</h1>
       </div>
