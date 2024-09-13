@@ -1,24 +1,26 @@
 import React from 'react'
 import './Footer.css'
 import logo from '../../assets/logo.png'
-import PersonIcon from '@mui/icons-material/Person';
 import CopyrightIcon from '@mui/icons-material/Copyright';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
     return (
         <div className='footer'>
             <div className='footer-top'>
                 <div className='footer-top-left'>
                     <img className='footer-logo-img' src={logo} />
-                    <p>This is the right side of the footer</p>
+                    <p>Made with ❤️ by Aryaman Sharma</p>
                 </div>
                 <div className='footer-top-right'>
-                    <div className='footer-email-input'>
-                        <PersonIcon/>
-                        <input type='email' placeholder='Enter your email'></input>
-                    </div>
-                    <div className='footer-subscribe'>Subscribe</div>
+                    <p>Sudo code at   {<GitHubIcon/>} 
+                    <a 
+                    href="https://github.com/Aryaman200314/Aryaman_portfolio"
+                    target='_blank'/>
+                    </p>   
                 </div>
             </div>
+            <div className='footer-connect-info'>Connect with me at <LinkedInIcon/> </div>
 
             <hr/>
             <div className='footer-bottom'>

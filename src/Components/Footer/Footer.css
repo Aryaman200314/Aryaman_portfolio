@@ -19,6 +19,7 @@
 .footer-top-right{
     display: flex;
     gap: 30px;
+    margin-top: 120px;
     align-items: center;
 }
 .footer-email-input{
