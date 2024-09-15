@@ -3,6 +3,7 @@ import './Contact.css'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -52,8 +53,10 @@ function Contact() {
                     <button className='submit-btn' type='submit'>Submit Now</button>
                 </form>
                 </div>
-       
+               
+       <div/>
     </div>
+  
   )
 }
 

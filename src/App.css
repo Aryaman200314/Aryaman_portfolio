@@ -1,0 +1,9 @@
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.541);
+    margin-right: 25px;
+}

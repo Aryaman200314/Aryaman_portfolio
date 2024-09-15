@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png'
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 function Footer() {
     return (
         <div className='footer'>
@@ -13,14 +14,19 @@ function Footer() {
                     <p>Made with ❤️ by Aryaman Sharma</p>
                 </div>
                 <div className='footer-top-right'>
-                    <p>Sudo code at   {<GitHubIcon/>} 
-                    <a 
-                    href="https://github.com/Aryaman200314/Aryaman_portfolio"
-                    target='_blank'/>
-                    </p>   
+                    <p>Source code at </p> 
+                    <GitHubIcon fontSize='large' className='github' onClick={() => window.open('https://github.com/Aryaman200314/Aryaman_portfolio', '_blank')}/>
+                    
+                       
                 </div>
             </div>
-            <div className='footer-connect-info'>Connect with me at <LinkedInIcon/> </div>
+            <div className='footer-connect-info'>Connect with me at 
+                <hr className='footer-hr'/>
+                <div className='footer-container-social'>
+                <LinkedInIcon fontSize='large' className='linkedin'onClick={() => window.open('https://www.linkedin.com/in/aryaman-sharma-07a233233/', '_blank')}/>
+                <InstagramIcon fontSize='large' className='instagram' onClick={() => window.open('https://www.instagram.com/aryam.n14/', '_blank')}/>
+                </div>
+                     </div>
 
             <hr/>
             <div className='footer-bottom'>
