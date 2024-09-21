@@ -55,9 +55,12 @@
     border-radius: 30px;
     border: 2px solid white;
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .my-resume:hover{
     border: 2px solid rgba(34,170,70,1);
+    color:rgba(34,170,70,1);
 }
 @media(max-width: 768px){
     .my-self img{

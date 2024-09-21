@@ -32,7 +32,7 @@ function Contact() {
     <div id='contact' className='contact'>
         <div className='contact-title'>
             <h1>Get in touch</h1>
-            <hr/>
+            <hr className='hr-get-in-touch'/>
             </div>
             <div className='contact-section'>
                 <div className='contact-left'><h1>Let's talk</h1>

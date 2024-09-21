@@ -98,3 +98,11 @@
     transform: scale(1.1) ;
     transition: 0.2s;
 }
+.hr-get-in-touch{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 2px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
+}
