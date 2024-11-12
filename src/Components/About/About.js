@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import myself from '../../assets/myself.jpg'
+import myself from '../../assets/myself.png'
 import user_alt from '../../assets/user_alt.png'
 function About() {
     return (

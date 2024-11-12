@@ -3,7 +3,7 @@ import './Contact.css'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
+
 function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -40,7 +40,7 @@ function Contact() {
                 <div className='contact-details'>
                     <div className='contact-detail'><MailOutlineIcon/><p>200314arya@gmail.com</p></div>
                     <div className='contact-detail'><LocationOnIcon/><p>Punjab, India</p></div>
-                    <div className='contact-detail'><CallIcon/><p>623975**57</p></div>
+                    <div className='contact-detail'><CallIcon/><p>+91 6239750057</p></div>
                 </div>
                 </div>
                 <form onSubmit={onSubmit} className='contact-right'>

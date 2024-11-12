@@ -1,92 +1,84 @@
-.navbar{
+/* Main Navbar Styling */
+.navbar {
     display: flex;
-    /* position: fixed; */
-    align-items: center;
-    /* overflow: hidden; */
     justify-content: space-between;
-    margin:2px 59px;
+    align-items: center;
+    padding: 15px 60px;
+    position: relative;
 }
-.nav-logo-img{
-    max-width: 200px;
-    max-height: 200px;
+
+/* Logo Styling */
+.nav-logo-img {
+    max-width: 150px;
+    max-height: 150px;
 }
-.nav-menu{
+
+/* Nav Menu (Desktop View) */
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 90px;
+    gap: 40px;
     font-size: 18px;
 }
-.nav-connect{
-    padding: 15px 25px;
+
+/* Connect Button */
+.nav-connect {
+    padding: 10px 20px;
     border-radius: 50px;
     background: linear-gradient(90deg, rgba(0, 73, 11, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
     cursor: pointer;
     font-size: 18px;
     transition: 0.5s;
 }
-.nav-connect:hover{
+
+/* Button Hover */
+.nav-connect:hover {
     transform: scale(1.2);
 }
-.nav-menu li{
+
+/* Anchor Links */
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Menu Items */
+.nav-menu li {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
 }
-.nav-menu hr{
-    
-    border: none;
-    height: 2px;
-    border-radius: 50px;
-    background: linear-gradient(90deg, rgba(14, 251, 50, 0.558) 0%, rgba(34,170,70,1) 19%, rgba(0,212,255,1) 100%);
-}
-.anchor-link {
-    text-decoration:none ;
-    color: white;
-}
-.nav-mob-close{
+
+/* Hamburger Icon - Hidden on Desktop */
+.nav-mob-open {
     display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
-.nav-mob-open{
+
+/* Mobile Close Icon - Hidden on Desktop */
+.nav-mob-close {
     display: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
 }
-@media(max-width:768px){
-    .navbar{
-        margin: 20px 50px;
-    }
-    .nav-connect{
-        display: none;
-    }
-    .nav-mob-open{
-        display: block;
-        position: fixed;
-        right: 30px;
-    }
-    .nav-mob-close{
-        display: block;
-        position: relative;
-        top: 30px;
-        left: 290px;
-        width: 30px;
-    }
-    .nav-menu{
-        position: fixed;
-        flex-direction: column;
-        align-items: center;
-        top: 0;
-        gap: 30px;
-        background-color: lightgreen;
-        width: 350px;
-        height: 100%;
-        z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
-    }
-    .nav-menu li{
-        font-size:30px ;
-        padding-left: 100px;
-        flex-direction: row;
-        gap: 20px;
-    }
+
+/* Nav Menu Open State */
+.nav-menu.open {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: lightgreen;
+    height: 100%;
+    width: 300px;
+    justify-content: center;
+    z-index: 100;
+    transition: right 0.5s ease;
 }

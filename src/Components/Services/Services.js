@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 import Services_Data from '../../assets/Services_data.js';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+
 function Services() {
   return (
     <div id='services' className='services'>
@@ -18,8 +18,6 @@ function Services() {
                     <h3>{service.s_name}</h3>
                     <p>{service.s_desc}</p>
                     <div className='services-readmore'>
-                        <p>Read More</p>
-                        <ChevronRightIcon fontSize='medium' />
                     </div>
                   </div>
                 )
